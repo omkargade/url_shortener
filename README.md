@@ -1,2 +1,3 @@
 # url_shortener
- url shortener service
+ 
+Url shortener and it's REST API
