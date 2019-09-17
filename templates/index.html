@@ -1,0 +1,16 @@
+<html>
+<title>Url Shortener</title>
+<body>
+
+<form method="post" action="result">
+     {% csrf_token %}
+    {{ check }}
+    <br>
+    Enter URL: <input type="text" name="url">
+    <br><br>
+    <input type="submit">
+
+</form>
+
+</body>
+</html>
